@@ -1,1 +1,33 @@
-<h1>Langing Page for Sitee</h1>
+<html>
+    <head>
+        <style>
+            button{
+                width: 45%;
+                border: 0;
+                padding: 1%;
+                margin: 1%;
+                color: slategrey;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                font-weight: bolder;
+                font-size: 125%;
+            }
+            button:hover{
+                background-color:  #d9e6ff;
+                color: #ff5659;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Parallel Bambara - French Dataset</h1>
+
+        <div>
+            <h3>{Description}</h3>
+        </div>
+        <div>
+            <h3>{Snapshot}</h3>
+        </div>
+        <button onclick="download_triggered()">Download</button>
+        <div id="code_sent"></div>
+    </body>
+    <script src="./index.js"></script>
+</html>

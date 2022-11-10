@@ -2,10 +2,10 @@
     <head>
         <style>
             button{
-                width: 45%;
+                width: 25%;
                 border: 0;
-                padding: 1%;
-                margin: 1%;
+                padding: .5%;
+                margin: 2% 1%;
                 color: slategrey;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 font-weight: bolder;
@@ -22,13 +22,41 @@
         <h1>Parallel Bambara - French Dataset</h1>
 
         <div>
-            <h3>{Description}</h3>
+            <h3>Bambarafra is a collection of 44529 aligned machine translation ready Bambara-French lines, originating from <a href="http://cormande.huma-num.fr/corbama/run.cgi/first_form">Corpus Bambara de Reference</a></h3>
         </div>
         <div>
-            <h3>{Snapshot}</h3>
+            <h3>Data Snapshot</h3>
+            <table>
+                <tr>
+                    <td>Tokens</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Types</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Avg. Line Token Count</td>
+                    <td>X</td>
+                </tr>
+            </table>
         </div>
         <button onclick="download_triggered()">Download</button>
         <div id="code_sent"></div>
+
+        <div>
+            <h5>Citation</h5>
+            <blockquote>
+                @misc{XXXX2022,
+                    author                = {XXXXX},
+                    title                 = {XXXXXX},
+                    howpublished          = {\url{https://robotsmali-ai.github.io/bambarafra}},
+                    year                  = 2022
+                  }
+            </blockquote>
+        </div>
+        <div> For any questions, contact <code>mleventhal@robotsmali.org</code> </div><br>
+        <div>This dataset is distributed under the CC-BY-SA-4.0 LICENSE</div>
     </body>
     <script src="./index.js"></script>
 </html>

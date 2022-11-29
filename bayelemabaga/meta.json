@@ -1,0 +1,13 @@
+{
+    "line_count": 44160,
+    "french_tokens": 665425,
+    "bambara_tokens": 654414,
+    "french_types": 28312,
+    "bambara_types": 27532,
+    "average_fr_line_length": 79,
+    "average_bam_line_length": 66,
+    "number_of_texts_sources": 231,
+    "text_source_type": "Misc",
+    "bambara_code": "bam",
+    "french_code": "fr"
+}

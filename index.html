@@ -1,61 +1,157 @@
 <html>
     <head>
         <style>
-            button{
+            button {
                 width: 25%;
                 border: 0;
-                padding: .5%;
+                padding: 0.5%;
                 margin: 2% 1%;
                 color: slategrey;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
                 font-weight: bolder;
                 font-size: 125%;
             }
-            button:hover{
-                background-color:  #d9e6ff;
+            button:hover {
+                background-color: #d9e6ff;
                 color: #ff5659;
             }
         </style>
-        <title>Bambara French - Parallel Text for Machine Learning</title>
+        <title>BAYƐLƐMABAGA: Parallel French - Bambara Dataset for Machine Learning</title>
     </head>
     <body>
-        <h1>Parallel Bambara - French Dataset</h1>
+        <h1>
+            BAYƐLƐMABAGA: Parallel French - Bambara Dataset for Machine Learning
+        </h1>
+        <h2>Overview</h2>
+        <p>
+            The Bayelemabaga dataset is a collection of 44160 aligned machine
+            translation ready Bambara-French lines, originating from
+            <a href="http://cormande.huma-num.fr/corbama/run.cgi/first_form"
+                >Corpus Bambara de Reference</a
+            > by INALCO's LLACAN Lab. The dataset is constitued of text extracted from
+            <strong>231</strong> text files, varing from periodicals, books,
+            short stories, blog posts, part of the Bible and the Quran.
+        </p>
+        <h2>Snapshot: 44160</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th align="left"></th>
+                    <th align="right"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="left"><strong>Lines</strong></td>
+                    <td align="right"><strong>44160</strong></td>
+                </tr>
+                <tr>
+                    <td align="left">French Tokens</td>
+                    <td align="right">665425</td>
+                </tr>
+                <tr>
+                    <td align="left">Bambara Tokens</td>
+                    <td align="right">645414</td>
+                </tr>
+                <tr>
+                    <td align="left">French Types</td>
+                    <td align="right">28312</td>
+                </tr>
+                <tr>
+                    <td align="left">Bambara Types</td>
+                    <td align="right">27532</td>
+                </tr>
+                <tr>
+                    <td align="left">Avg. Fr line length</td>
+                    <td align="right">79</td>
+                </tr>
+                <tr>
+                    <td align="left">Avg. Bam line length</td>
+                    <td align="right">66</td>
+                </tr>
+                <tr>
+                    <td align="left">Number of text sources</td>
+                    <td align="right">231</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Data Splits</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th align="center"></th>
+                    <th align="center"></th>
+                    <th align="right"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">Train</td>
+                    <td align="center">80%</td>
+                    <td align="right">35328</td>
+                </tr>
+                <tr>
+                    <td align="center">Valid</td>
+                    <td align="center">10%</td>
+                    <td align="right">4416</td>
+                </tr>
+                <tr>
+                    <td align="center">Test</td>
+                    <td align="center">10%</td>
+                    <td align="right">4416</td>
+                </tr>
+                <tr>
+                    <td align="center"></td>
+                    <td align="center"></td>
+                    <td align="right"></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Remarks</h2>
+        <ul>
+            <li>
+                We are working on resolving some last minute misalignment issues
+                encountered.
+            </li>
+        </ul>
+        <h3>Maintenance</h3>
+        <ul>
+            <li>This dataset is supposed to be actively maintained.</li>
+        </ul>
+        <h3>Benchmarks:</h3>
+        <ul>
+            <li>
+                <code>Coming soon</code>
+            </li>
+        </ul>
+        <h3>To note:</h3>
+        <ul>
+            <li>
+                ʃ =&gt; (sh) sound: Symbol left in the dataset, although not a
+                part of bambara orthography nor French orthography.
+            </li>
+        </ul>
+        <h2>License</h2>
+        <h2>Version</h2>
+        <ul>
+            <li>
+                <code>1.0.0</code>
+            </li>
+        </ul>
+        <h2>Citation</h2>
+        <h2>Contacts</h2>
+        <ul>
+            <li>Christopher Homan (PI)</li>
+            <li>Michael Leventhal (PI)</li>
+            <li>Valentin Vydrin (PI)</li>
+        </ul>
 
-        <div>
-            <h3>BamFra is a collection of 44562 aligned machine translation ready Bambara-French lines, originating from <a href="http://cormande.huma-num.fr/corbama/run.cgi/first_form">Corpus Bambara de Reference</a></h3>
-        </div>
-        <div>
-            <h3>Data Snapshot</h3>
-            <table>
-                <tr>
-                    <td>Tokens</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>Types</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>Avg. Line Token Count</td>
-                    <td>X</td>
-                </tr>
-            </table>
-        </div>
         <button onclick="download_triggered()">Download</button>
         <div id="code_sent"></div>
-
         <div>
-            <h5>Citation</h5>
-            <blockquote>
-                @misc{XXXX2022,
-                    author                = {XXXXX},
-                    title                 = {XXXXXX},
-                    howpublished          = {\url{https://robotsmali-ai.github.io/bambarafra}},
-                    year                  = 2022
-                  }
-            </blockquote>
+            For any questions, contact <code>mleventhal@robotsmali.org</code>
         </div>
-        <div> For any questions, contact <code>mleventhal@robotsmali.org</code> </div><br>
+        <br />
         <div>This dataset is distributed under the CC-BY-SA-4.0 LICENSE</div>
     </body>
     <script src="./index.js"></script>

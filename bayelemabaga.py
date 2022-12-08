@@ -3,15 +3,18 @@
 import datasets
 
 _CITATION = """\
-@misc{bayelemaba2022
+@misc{bayelemabagamldataset2022
     title={Machine Learning Dataset Development for Manding Languages},
     author={
         Valentin Vydrin and
         Christopher Homan and
         Michael Leventhal and
         Allashera Auguste Tapo and
-        Marco Z... and
-        INALCO Members
+        Marco Zampieri and
+        Jean-Jacques Meric and
+        Kirill Maslinsky and
+        Andrij Rovenchak and
+        Sebastien Diarra
 
     },
     howpublished = {url{https://github.com/robotsmali-ai/datasets}},

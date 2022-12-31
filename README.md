@@ -3,24 +3,24 @@
 ## Overview
 The Bayelemabaga dataset is a collection of 44562 aligned machine translation ready Bambara-French lines, originating from [Corpus Bambara de Reference](http://cormande.huma-num.fr/corbama/run.cgi/first_form). The dataset is constitued of text extracted from **231** text files, varing from periodicals, books, short stories, blog posts, part of the Bible and the Quran.  
 
-## Snapshot: 44160
+## Snapshot: 46976
 |    |    |
 |:---|---:|
-| **Lines** | **44160** |
-| French Tokens | 665425 |
-| Bambara Tokens | 645414 |
-| French Types | 28312 |
-| Bambara Types | 27532 |
-| Avg. Fr line length | 79 |
-| Avg. Bam line length | 66 |
-| Number of text sources | 231 |
+| **Lines** | **46976** |
+| French Tokens | --- |
+| Bambara Tokens | --- |
+| French Types | --- |
+| Bambara Types | --- |
+| Avg. Fr line length | -- |
+| Avg. Bam line length | -- |
+| Number of text sources | 264 |
 
 ## Data Splits
 |       |     |       |
 |:-----:|:---:|------:|
-| Train | 80% | 35328 |
-| Valid | 10% | 4416  |
-| Test  | 10% | 4416  |
+| Train | 80% | 37580 |
+| Valid | 10% | 4698  |
+| Test  | 10% | 4698  |
 ||
 
 ## Remarks
@@ -44,13 +44,28 @@ The Bayelemabaga dataset is a collection of 44562 aligned machine translation re
 
 ## Version
 
-- `1.0.0`
+- `1.0.1`
 
 ## Citation
 
-
+```
+@misc{bayelemabagamldataset2022
+    title={Machine Learning Dataset Development for Manding Languages},
+    author={
+        Valentin Vydrin and
+        Christopher Homan and
+        Michael Leventhal and
+        Allashera Auguste Tapo and
+        Marco Zampieri and
+        Jean-Jacques Meric and
+        Kirill Maslinsky and
+        Andrij Rovenchak and
+        Sebastien Diarra
+    },
+    howpublished = {url{https://github.com/robotsmali-ai/datasets}},
+    year={2022}
+}
+```
 
 ## Contacts
-- Christopher Homan (PI)
-- Michael Leventhal (PI)
-- Valentin Vydrin (PI)
+- `sdiarra <at> robotsmali.org`

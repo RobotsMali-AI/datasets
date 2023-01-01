@@ -30,10 +30,10 @@
             <a href="http://cormande.huma-num.fr/corbama/run.cgi/first_form"
                 >Corpus Bambara de Reference</a
             > by INALCO's LLACAN Lab. The dataset is constitued of text extracted from
-            <strong>231</strong> text files, varing from periodicals, books,
+            <strong>264</strong> text files, varing from periodicals, books,
             short stories, blog posts, part of the Bible and the Quran.
         </p>
-        <h2>Snapshot: 44160</h2>
+        <h2>Snapshot: 46976</h2>
         <table>
             <thead>
                 <tr>
@@ -48,31 +48,31 @@
                 </tr>
                 <tr>
                     <td align="left">French Tokens</td>
-                    <td align="right">--</td>
+                    <td align="right">691312</td>
                 </tr>
                 <tr>
                     <td align="left">Bambara Tokens</td>
-                    <td align="right">--</td>
+                    <td align="right">660732</td>
                 </tr>
                 <tr>
                     <td align="left">French Types</td>
-                    <td align="right">--</td>
+                    <td align="right">32018</td>
                 </tr>
                 <tr>
                     <td align="left">Bambara Types</td>
-                    <td align="right">---</td>
+                    <td align="right">29382</td>
                 </tr>
                 <tr>
                     <td align="left">Avg. Fr line length</td>
-                    <td align="right">---</td>
+                    <td align="right">77.6</td>
                 </tr>
                 <tr>
                     <td align="left">Avg. Bam line length</td>
-                    <td align="right">---</td>
+                    <td align="right">61.69</td>
                 </tr>
                 <tr>
                     <td align="left">Number of text sources</td>
-                    <td align="right">---</td>
+                    <td align="right">264</td>
                 </tr>
             </tbody>
         </table>
@@ -111,7 +111,7 @@
         <h2>Remarks</h2>
         <ul>
             <li>
-                We are working on resolving some last minute misalignment issues
+                **We are working on resolving some last minute misalignment issues
                 encountered.
             </li>
         </ul>
@@ -125,10 +125,16 @@
                 <code>Coming soon</code>
             </li>
         </ul>
+        <h3>Sources:</h3>
+        <ul>
+            <li>
+                <a href="./bayelemabaga/sources.txt">Sources /bayelemabaga/sources.txt</a>
+            </li>
+        </ul>
         <h3>To note:</h3>
         <ul>
             <li>
-                ʃ =&gt; (sh) sound: Symbol left in the dataset, although not a
+                ʃ =&gt; (sh/shy) sound: Symbol left in the dataset, although not a
                 part of bambara orthography nor French orthography.
             </li>
         </ul>
@@ -145,21 +151,22 @@
                 title={Machine Learning Dataset Development for Manding Languages},
                 author={
                     Valentin Vydrin and
-                    Christopher Homan and
-                    Michael Leventhal and
-                    Allashera Auguste Tapo and
-                    Marco Zampieri and
                     Jean-Jacques Meric and
                     Kirill Maslinsky and
                     Andrij Rovenchak and
-                    Sebastien Diarra
+                    Allashera Auguste Tapo and
+                    Sebastien Diarra and
+                    Christopher Homan and
+                    Marco Zampieri and
+                    Michael Leventhal
                 },
                 howpublished = {url{https://github.com/robotsmali-ai/datasets}},
                 year={2022}
             }
         </code>
-
-        <button onclick="download_triggered()">Download</button>
+        <div>
+            <button onclick="download_triggered()">Download</button>
+        </div>
         <div id="code_sent"></div>
         <div>
             For any questions, contact <code>sdiarra@robotsmali.org</code>

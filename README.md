@@ -60,7 +60,7 @@ The Bayelemabaga dataset is a collection of 44562 aligned machine translation re
         Jean-Jacques Meric and
         Kirill Maslinsky and
         Andrij Rovenchak and
-        Allashera Auguste Tapo and
+        Allahsera Auguste Tapo and
         Sebastien Diarra and
         Christopher Homan and
         Marco Zampieri and
